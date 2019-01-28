@@ -1,0 +1,6 @@
+# note that this browser compatibility list is _not_ necessarily what we actively test for, but what we compile for to guarantee the page degrades gracefully for browsers that are still used in production
+
+current node
+last 3 versions
+not dead
+not <0.01%  # this filters out several unused browsers that included by "last 3 versions", but are not yet declared dead by browserslist
